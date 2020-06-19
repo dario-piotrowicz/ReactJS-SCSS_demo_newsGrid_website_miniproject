@@ -1,6 +1,6 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./app";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './app';
 
 class Welcome extends React.Component {
   render() {
@@ -8,4 +8,4 @@ class Welcome extends React.Component {
   }
 }
 
-ReactDOM.render(<Welcome />, document.getElementById("root"));
+ReactDOM.render(<Welcome />, document.getElementById('root'));
