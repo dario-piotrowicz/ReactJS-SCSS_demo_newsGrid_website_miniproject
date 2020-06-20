@@ -6,9 +6,7 @@ type CategoryTagProps = {
   type: CategoryType;
 };
 
-const CategoryTag: FunctionComponent<CategoryTagProps> = ({
-  type,
-}: CategoryTagProps) => {
+const CategoryTag: FunctionComponent<CategoryTagProps> = ({ type }) => {
   return <div className={`category-tag ${type}`}>{type}</div>;
 };
 

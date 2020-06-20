@@ -8,7 +8,7 @@ const Showcase: FunctionComponent = () => {
     <section className="showcase">
       <div className="centering-container">
         <div className="content">
-          <CategoryTag type={CategoryType.Sport} />
+          <CategoryTag type={CategoryType.Sports} />
           <h1>Some Sports Article</h1>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.

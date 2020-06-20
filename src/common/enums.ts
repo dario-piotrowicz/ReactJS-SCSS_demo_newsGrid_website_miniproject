@@ -1,5 +1,5 @@
 export enum CategoryType {
-  Sport = 'sport',
+  Sports = 'sports',
   Entertainment = 'entertainment',
   Technology = 'technology',
 }
