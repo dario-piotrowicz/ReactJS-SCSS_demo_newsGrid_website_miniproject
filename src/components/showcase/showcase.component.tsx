@@ -1,12 +1,14 @@
 import React, { FunctionComponent } from 'react';
 import './showcase.styles.scss';
+import CategoryTag from '../category-tag/category-tag.component';
+import { CategoryType } from '../../common/enums';
 
 const Showcase: FunctionComponent = () => {
   return (
     <section className="showcase">
       <div className="centering-container">
         <div className="content">
-          <div className="category-sport">sports</div>
+          <CategoryTag type={CategoryType.Sport} />
           <h1>Some Sports Article</h1>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
