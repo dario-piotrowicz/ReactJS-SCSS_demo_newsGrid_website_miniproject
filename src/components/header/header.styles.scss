@@ -1,4 +1,76 @@
-h1 {
-  background-color: red;
-  color: yellow;
+@import '../../common/styles/constants.scss';
+
+#main-header {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+
+  .logo {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 3rem;
+    }
+
+    h1 {
+      font-family: 'Lato', sans-serif;
+      color: balck;
+      font-size: 2rem;
+      margin-left: 0.2em;
+
+      span {
+        color: $color-primary;
+      }
+    }
+  }
+
+  .centering-container {
+    display: grid;
+    grid-template-columns: 6fr 3fr 2fr;
+    align-items: center;
+  }
+
+  a {
+    color: $color-dark;
+    text-decoration: none;
+  }
+
+  .social {
+    justify-self: center;
+
+    a {
+      color: #777;
+
+      &:hover {
+        color: #555;
+      }
+    }
+  }
+
+  nav {
+    justify-self: end;
+    ul {
+      list-style: none;
+      margin: 0;
+      display: flex;
+
+      li a {
+        font-weight: bold;
+        padding: 0.75rem;
+
+        &.current {
+          color: #fff;
+          background-color: $color-primary;
+        }
+
+        &:hover {
+          color: $color-dark;
+          background-color: $color-light;
+        }
+      }
+    }
+  }
 }

@@ -1,0 +1,21 @@
+@import './common/styles/constants.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $color-light;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+}
+
+#root {
+  width: 100%;
+}
+
+.centering-container {
+  max-width: $site-max-with;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+  padding: 0rem 0.5rem;
+}
