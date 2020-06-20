@@ -3,3 +3,9 @@ export enum CategoryType {
   Entertainment = 'entertainment',
   Technology = 'technology',
 }
+
+export enum ArticleCardBackground {
+  Default,
+  Primary,
+  Dark,
+}

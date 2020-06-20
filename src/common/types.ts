@@ -1,9 +1,16 @@
-import { CategoryType } from './enums';
+import { CategoryType, ArticleCardBackground } from './enums';
 
-export type Article = {
+export type ArticleData = {
   id: string;
   category: CategoryType;
   imgSrc?: string;
   title: string;
   description: string;
+};
+
+export type ArticleCardData = {
+  article: ArticleData;
+  horizontalDisplay?: boolean;
+  reverseOrder?: boolean;
+  background?: ArticleCardBackground;
 };

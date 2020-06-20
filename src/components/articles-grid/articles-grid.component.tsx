@@ -1,13 +1,13 @@
 import React, { FunctionComponent } from 'react';
 import './articles-grid.styles.scss';
 import ArticleCard from '../article-card/article-card.component';
-import { articles } from './articles';
+import { articleCardsData } from './articles';
 
 const ArticlesGrid: FunctionComponent = () => {
   return (
     <div className="articles-grid">
-      {articles.map((a) => (
-        <ArticleCard key={a.id} {...a} />
+      {articleCardsData.map((a) => (
+        <ArticleCard key={a.article.id} {...a} />
       ))}
     </div>
   );

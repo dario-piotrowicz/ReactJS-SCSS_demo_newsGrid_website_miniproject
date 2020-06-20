@@ -1,7 +1,7 @@
-import { CategoryType } from '../../common/enums';
-import { Article } from '../../common/types';
+import { CategoryType, ArticleCardBackground } from '../../common/enums';
+import { ArticleData, ArticleCardData } from '../../common/types';
 
-export const articles: Article[] = [
+const articles: ArticleData[] = [
   {
     id: 'article_0',
     category: CategoryType.Entertainment,
@@ -16,16 +16,6 @@ export const articles: Article[] = [
   {
     id: 'article_1',
     category: CategoryType.Sports,
-    title: 'Lorem ipsum dolor sit amet',
-    description: `
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-  tempora impedit vitae, voluptate, numquam nesciunt est minima
-  consequuntur explicabo ut maiores, eum repellat saepe corrupti!
-  `,
-  },
-  {
-    id: 'article_2',
-    category: CategoryType.Technology,
     title: 'Lorem ipsum dolor sit amet',
     description: `
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
@@ -88,3 +78,22 @@ export const articles: Article[] = [
   `,
   },
 ];
+
+export const articleCardsData: ArticleCardData[] = articles.map(
+  (article: ArticleData, idx: number) => {
+    const horizontalDisplay = idx === 0 || idx === articles.length - 1;
+    const reverseOrder = idx === articles.length - 1 || idx === 3;
+    const background =
+      idx === 1
+        ? ArticleCardBackground.Dark
+        : idx === 5
+        ? ArticleCardBackground.Primary
+        : ArticleCardBackground.Default;
+    return {
+      article,
+      horizontalDisplay,
+      reverseOrder,
+      background,
+    };
+  }
+);

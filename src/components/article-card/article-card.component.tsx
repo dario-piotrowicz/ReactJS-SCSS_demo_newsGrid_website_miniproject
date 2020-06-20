@@ -1,13 +1,37 @@
 import React, { FunctionComponent } from 'react';
 import './article-card.styles.scss';
 import CategoryTag from '../category-tag/category-tag.component';
-import { Article } from '../../common/types';
+import { ArticleCardData } from '../../common/types';
+import { ArticleCardBackground } from '../../common/enums';
 
-type ArticleCardProps = Article;
+function getCardClassName(
+  horizontalDisplay: boolean,
+  reverseOrder: boolean,
+  background: ArticleCardBackground
+) {
+  let className = 'article-card';
+  if (horizontalDisplay) className += ' horizontal';
+  if (reverseOrder) className += ' reverse';
+  if (background === ArticleCardBackground.Dark) className += ' bg-dark';
+  if (background === ArticleCardBackground.Primary) className += ' bg-primary';
+  return className;
+}
 
-const ArticleCard: FunctionComponent<ArticleCardProps> = (article) => {
+type ArticleCardProps = ArticleCardData;
+
+const ArticleCard: FunctionComponent<ArticleCardProps> = ({
+  article,
+  horizontalDisplay,
+  reverseOrder,
+  background,
+}) => {
+  const className = getCardClassName(
+    horizontalDisplay,
+    reverseOrder,
+    background
+  );
   return (
-    <article className="article-card">
+    <article className={className}>
       {article.imgSrc ? <img src={article.imgSrc} /> : null}
       <div>
         <CategoryTag type={article.category} />
