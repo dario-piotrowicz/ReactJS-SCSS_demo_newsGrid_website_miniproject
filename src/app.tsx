@@ -1,10 +1,9 @@
-import React from 'react';
+import React, { FunctionComponent } from 'react';
 import './app.scss';
+import Home from './pages/home/home.page.component';
 
-class App extends React.Component {
-  render() {
-    return <h1>Hello World!</h1>;
-  }
-}
+const App: FunctionComponent = () => {
+  return <Home />;
+};
 
 export default App;
