@@ -1,8 +1,13 @@
 import React, { FunctionComponent } from 'react';
 import './home.styles.scss';
+import Showcase from '../../components/showcase/showcase.component';
 
 const Home: FunctionComponent = () => {
-  return <h1>Homepage</h1>;
+  return (
+    <div id="home-page">
+      <Showcase />
+    </div>
+  );
 };
 
 export default Home;
