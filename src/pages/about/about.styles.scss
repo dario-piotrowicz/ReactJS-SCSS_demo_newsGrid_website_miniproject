@@ -34,4 +34,17 @@
       font-weight: bold;
     }
   }
+
+  @media (max-width: 650px) {
+    grid-template-columns: 1fr;
+    text-align: center;
+
+    article {
+      grid-row: 1;
+
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  }
 }

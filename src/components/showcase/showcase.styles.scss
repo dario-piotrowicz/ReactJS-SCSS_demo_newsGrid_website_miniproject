@@ -23,7 +23,11 @@ section.showcase {
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    min-height: 50vh;
+
+    @media (max-width: 600px) {
+      grid-template-columns: 1fr;
+    }
 
     .content {
       z-index: 1;
