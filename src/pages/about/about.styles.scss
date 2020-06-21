@@ -1,0 +1,33 @@
+@import '../../common/styles/constants.scss';
+
+#about-page {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  grid-gap: 1.5rem;
+  margin: 2rem 0;
+
+  article,
+  aside {
+    box-sizing: border-box;
+    padding: 1.5rem;
+  }
+
+  article {
+    color: $color-dark;
+    background-color: #fff;
+    grid-row: 1 / span 5;
+  }
+
+  aside {
+    color: #fff;
+    background-color: $color-primary;
+
+    .btn {
+      display: block;
+      width: 100%;
+      margin: 0.5rem 0;
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+}
