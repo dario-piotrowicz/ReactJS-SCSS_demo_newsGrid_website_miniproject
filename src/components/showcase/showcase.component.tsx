@@ -2,6 +2,7 @@ import React, { FunctionComponent } from 'react';
 import './showcase.styles.scss';
 import CategoryTag from '../category-tag/category-tag.component';
 import { CategoryType } from '../../common/enums';
+import { Link } from 'react-router-dom';
 
 const Showcase: FunctionComponent = () => {
   return (
@@ -16,9 +17,9 @@ const Showcase: FunctionComponent = () => {
             earum architecto delectus consequatur pariatur eveniet. Ullam eaque
             libero ab nihil dolore quas dignissimos.
           </p>
-          <a href="#" className="btn-primary">
+          <Link to="article/article_showcase" className="btn-primary">
             Read More
-          </a>
+          </Link>
         </div>
       </div>
     </section>

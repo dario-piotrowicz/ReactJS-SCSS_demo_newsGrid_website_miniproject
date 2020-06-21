@@ -3,6 +3,7 @@ import './article-card.styles.scss';
 import CategoryTag from '../category-tag/category-tag.component';
 import { ArticleCardData } from '../../common/types';
 import { ArticleCardBackground } from '../../common/enums';
+import { Link } from 'react-router-dom';
 
 function getCardClassName(
   horizontalDisplay: boolean,
@@ -36,7 +37,7 @@ const ArticleCard: FunctionComponent<ArticleCardProps> = ({
       <div>
         <CategoryTag type={article.category} />
         <h3>
-          <a href="#">{article.title}</a>
+          <Link to={`article/${article.id}`}>{article.title}</Link>
         </h3>
         <p>{article.description}</p>
       </div>
