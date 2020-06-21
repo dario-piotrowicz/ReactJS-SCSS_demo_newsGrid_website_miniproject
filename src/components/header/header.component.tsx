@@ -2,6 +2,7 @@ import React, { FunctionComponent } from 'react';
 import './header.styles.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { NavLink } from 'react-router-dom';
 
 const githubBaseUrl = 'https://github.com/dario-piotrowicz/';
 const githubRepoName = 'ReactJS-SCSS_demo_newsGrid_website_miniproject';
@@ -25,12 +26,14 @@ const Header: FunctionComponent = () => {
         <nav>
           <ul>
             <li>
-              <a className="current" href="#">
+              <NavLink to="/" exact activeClassName="current">
                 Home
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="#">About</a>
+              <NavLink to="/about" exact activeClassName="current">
+                About
+              </NavLink>
             </li>
           </ul>
         </nav>
