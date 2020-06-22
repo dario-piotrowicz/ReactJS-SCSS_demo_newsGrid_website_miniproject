@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { FunctionComponent } from 'react';
 import ReactDOM from 'react-dom';
 import App from './app';
+import { HashRouter as Router } from 'react-router-dom';
 
-class Welcome extends React.Component {
-  render() {
-    return <App />;
-  }
-}
+const NewsGrid: FunctionComponent = () => {
+  return (
+    <Router>
+      <App />
+    </Router>
+  );
+};
 
-ReactDOM.render(<Welcome />, document.getElementById('root'));
+ReactDOM.render(<NewsGrid />, document.getElementById('root'));
