@@ -13,14 +13,17 @@ const Footer = () => {
             </h1>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-            assumenda eos dolores consequuntur optio impedit harum tempora iusto
-            iste dolorem.
+            News about all and everything presented in grid format. The most
+            grid-format news website in the fictional websites web! Implemented
+            with CSS Grid!
           </p>
         </div>
         <div className="newsletter-container">
           <h3>Email Newsletter</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          <p>
+            Do you want to be always up to date with our latest news? Sign up
+            now for our email newsletter service
+          </p>
           <form>
             <input type="email" placeholder="Enter Email" />
             <input type="submit" value="subscribe" className="btn-primary" />
@@ -46,8 +49,8 @@ const Footer = () => {
         <div className="join-container">
           <h2>Join Our Club</h2>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores,
-            sit.
+            Join our club to get fantactic perks and stuff. You will likely not
+            regret it.
           </p>
           <a href="#" className="btn">
             Join Now
