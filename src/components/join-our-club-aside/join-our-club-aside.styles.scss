@@ -1,0 +1,16 @@
+@import '../../common/styles/constants.scss';
+
+aside.join-our-club {
+  box-sizing: border-box;
+  padding: 1.5rem;
+  color: #fff;
+  background-color: $color-primary;
+
+  .btn {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+    text-align: center;
+    font-weight: bold;
+  }
+}

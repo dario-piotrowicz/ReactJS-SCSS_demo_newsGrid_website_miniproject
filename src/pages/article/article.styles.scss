@@ -10,8 +10,7 @@
     width: 100%;
   }
 
-  article,
-  aside {
+  article {
     box-sizing: border-box;
     padding: 1.5rem;
     background-color: #fff;
@@ -32,19 +31,6 @@
       align-items: center;
       background-color: #eee;
       padding: 0.5rem;
-    }
-  }
-
-  aside.join {
-    color: #fff;
-    background-color: $color-primary;
-
-    .btn {
-      display: block;
-      width: 100%;
-      margin: 0.5rem 0;
-      text-align: center;
-      font-weight: bold;
     }
   }
 

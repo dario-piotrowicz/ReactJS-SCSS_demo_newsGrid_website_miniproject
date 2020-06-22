@@ -1,5 +1,6 @@
 import React, { FunctionComponent } from 'react';
 import './about.styles.scss';
+import JoinOurClubAside from '../../components/join-our-club-aside/join-our-club-aside.component';
 
 const About: FunctionComponent = () => {
   return (
@@ -35,13 +36,7 @@ const About: FunctionComponent = () => {
           aperiam reiciendis recusandae harum?
         </p>
       </article>
-      <aside>
-        <h2>Join Our Club</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, odio.
-        </p>
-        <button className="btn">Join Now</button>
-      </aside>
+      <JoinOurClubAside />
     </div>
   );
 };

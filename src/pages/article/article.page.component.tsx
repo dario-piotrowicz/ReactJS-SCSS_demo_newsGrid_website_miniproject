@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import CategoryTag from '../../components/category-tag/category-tag.component';
 import { CategoryType } from '../../common/enums';
+import JoinOurClubAside from '../../components/join-our-club-aside/join-our-club-aside.component';
 
 const Article: FunctionComponent = () => {
   return (
@@ -64,13 +65,7 @@ const Article: FunctionComponent = () => {
           </li>
         </ul>
       </aside>
-      <aside className="join">
-        <h2>Join Our Club</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, odio.
-        </p>
-        <button className="btn">Join Now</button>
-      </aside>
+      <JoinOurClubAside />
     </div>
   );
 };
