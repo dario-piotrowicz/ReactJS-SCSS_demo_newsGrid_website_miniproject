@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react';
 import './articles-grid.styles.scss';
 import ArticleCard from '../article-card/article-card.component';
-import { articleCardsData } from './articles';
+import { articleCardsData } from '../../common/articles';
 
 const ArticlesGrid: FunctionComponent = () => {
   return (

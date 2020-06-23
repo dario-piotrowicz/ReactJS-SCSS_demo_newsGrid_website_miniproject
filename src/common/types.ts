@@ -6,6 +6,7 @@ export type ArticleData = {
   imgSrc?: string;
   title: string;
   description: string;
+  content: string;
 };
 
 export type ArticleCardData = {

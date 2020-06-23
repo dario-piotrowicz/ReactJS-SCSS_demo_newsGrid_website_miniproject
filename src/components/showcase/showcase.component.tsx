@@ -3,21 +3,24 @@ import './showcase.styles.scss';
 import CategoryTag from '../category-tag/category-tag.component';
 import { CategoryType } from '../../common/enums';
 import { Link } from 'react-router-dom';
+import { articles } from '../../common/articles';
 
 const Showcase: FunctionComponent = () => {
+  const article = articles[0];
+
+  const backgroundStyle = {
+    background: `url('${article.imgSrc}') no-repeat center center/cover`,
+  };
+
   return (
     <section className="showcase">
+      <div className="background" style={backgroundStyle} />
       <div className="centering-container">
         <div className="content">
           <CategoryTag type={CategoryType.Sports} />
-          <h1>White ESU agains Black 55</h1>
-          <p>
-            It is again that time of the year, the great ESU with their white
-            uniforms are about to dooke it out with the fearsome team 55 which
-            is porting a black-ish uniform. Join us as we're going to discuss
-            what to expect from these fantastic teams.
-          </p>
-          <Link to="article/article_showcase" className="btn-primary">
+          <h1>{article.title}</h1>
+          <p>{article.description}</p>
+          <Link to={`article/${article.id}`} className="btn-primary">
             Read More
           </Link>
         </div>

@@ -1,9 +1,22 @@
-import { CategoryType, ArticleCardBackground } from '../../common/enums';
-import { ArticleData, ArticleCardData } from '../../common/types';
+import { CategoryType, ArticleCardBackground } from './enums';
+import { ArticleData, ArticleCardData } from './types';
 
-const articles: ArticleData[] = [
+export const articles: ArticleData[] = [
   {
     id: 'article_0',
+    category: CategoryType.Sports,
+    imgSrc: './images/showcase.jpg',
+    title: 'White ESU agains Black 55',
+    description: `
+    It is again that time of the year, the great ESU with their white
+    uniforms are about to dooke it out with the fearsome team 55 which
+    is porting a black-ish uniform. Join us as we're going to discuss
+    what to expect from these fantastic teams.
+  `,
+    content: '',
+  },
+  {
+    id: 'article_1',
     category: CategoryType.Entertainment,
     imgSrc: './images/articles/ent1.jpg',
     title: 'VR in the woods',
@@ -14,9 +27,10 @@ const articles: ArticleData[] = [
     and the fresh air and available space would make
     it mush healthier.
   `,
+    content: '',
   },
   {
-    id: 'article_1',
+    id: 'article_2',
     category: CategoryType.Sports,
     title: 'Incredible Goal',
     description: `
@@ -26,6 +40,7 @@ const articles: ArticleData[] = [
     We interviewed him and he shared his magnificent
     moment with us.
   `,
+    content: '',
   },
   {
     id: 'article_3',
@@ -39,6 +54,7 @@ const articles: ArticleData[] = [
       feature as it can make your hardware look shiny
       and advanced.
   `,
+    content: '',
   },
   {
     id: 'article_4',
@@ -51,6 +67,7 @@ const articles: ArticleData[] = [
       for a very important race after all and they intend
       to do their very best.
   `,
+    content: '',
   },
   {
     id: 'article_5',
@@ -64,6 +81,7 @@ const articles: ArticleData[] = [
       and shine a rainbow light on it? The result may
       surprise you (or not).
   `,
+    content: '',
   },
   {
     id: 'article_6',
@@ -76,6 +94,7 @@ const articles: ArticleData[] = [
       So we had no choice but to interview him once more,
       thought not too happy about that he complied.
   `,
+    content: '',
   },
   {
     id: 'article_7',
@@ -86,13 +105,15 @@ const articles: ArticleData[] = [
       Professional Cameras are great! They can cost a lot but they
       (likely) take videos much better than smartphones.
   `,
+    content: '',
   },
 ];
 
-export const articleCardsData: ArticleCardData[] = articles.map(
-  (article: ArticleData, idx: number) => {
-    const horizontalDisplay = idx === 0 || idx === articles.length - 1;
-    const reverseOrder = idx === articles.length - 1 || idx === 3;
+export const articleCardsData: ArticleCardData[] = articles
+  .slice(1)
+  .map((article: ArticleData, idx: number) => {
+    const horizontalDisplay = idx === 0 || idx === articles.length - 2;
+    const reverseOrder = idx === articles.length - 2 || idx === 3;
     const background =
       idx === 1
         ? ArticleCardBackground.Dark
@@ -105,5 +126,4 @@ export const articleCardsData: ArticleCardData[] = articles.map(
       reverseOrder,
       background,
     };
-  }
-);
+  });
