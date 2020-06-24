@@ -26,7 +26,12 @@ const Footer = () => {
           </p>
           <form method="post">
             <input type="hidden" name="form-name" value="newsletter" />
-            <input type="email" name="email" placeholder="Enter Email" />
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter Email"
+              required
+            />
             <input type="submit" value="subscribe" className="btn-primary" />
           </form>
         </div>
