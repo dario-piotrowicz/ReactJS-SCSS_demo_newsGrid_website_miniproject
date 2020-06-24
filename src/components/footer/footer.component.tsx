@@ -24,8 +24,9 @@ const Footer = () => {
             Do you want to be always up to date with our latest news? Sign up
             now for our email newsletter service
           </p>
-          <form>
-            <input type="email" placeholder="Enter Email" />
+          <form method="post">
+            <input type="hidden" name="form-name" value="newsletter" />
+            <input type="email" name="email" placeholder="Enter Email" />
             <input type="submit" value="subscribe" className="btn-primary" />
           </form>
         </div>
