@@ -9,6 +9,11 @@ module.exports = {
   },
   devServer: {
     contentBase: './public',
+    watchContentBase: true,
+    watchOptions: {
+      ignored: /node_modules/,
+    },
+    historyApiFallback: true,
   },
   module: {
     rules: [
