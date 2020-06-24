@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="centering-container footer-container">
         <div>
           <div className="logo">
-            <img src="./images/logo-light.png" />
+            <img src="/images/logo-light.png" />
             <h1>
               News<span>Grid</span>
             </h1>

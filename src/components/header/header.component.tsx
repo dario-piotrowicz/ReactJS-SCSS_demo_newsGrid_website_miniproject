@@ -13,7 +13,7 @@ const Header: FunctionComponent = () => {
     <header id="main-header">
       <div className="centering-container">
         <Link to="/" className="logo">
-          <img src="./images/logo.png" />
+          <img src="/images/logo.png" />
           <h1>
             News<span>Grid</span>
           </h1>

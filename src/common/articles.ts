@@ -5,7 +5,7 @@ export const articles: ArticleData[] = [
   {
     id: 'article_0',
     category: CategoryType.Sports,
-    imgSrc: './images/articles/sports1.jpg',
+    imgSrc: '/images/articles/sports1.jpg',
     title: 'White ESU agains Black 55',
     description: `
     It is again that time of the year, the great ESU with their white
@@ -47,7 +47,7 @@ export const articles: ArticleData[] = [
   {
     id: 'article_1',
     category: CategoryType.Entertainment,
-    imgSrc: './images/articles/ent1.jpg',
+    imgSrc: '/images/articles/ent1.jpg',
     title: 'VR in the woods',
     description: `
     Studies suggest that is not silly at all going
@@ -128,7 +128,7 @@ export const articles: ArticleData[] = [
   {
     id: 'article_3',
     category: CategoryType.Technology,
-    imgSrc: './images/articles/tech1.jpg',
+    imgSrc: '/images/articles/tech1.jpg',
     title: 'Routers or Servers with Nice Lights',
     description: `
       Have you ever thought of having a server?
@@ -148,7 +148,7 @@ export const articles: ArticleData[] = [
     <p>
     Don't believe me? Check the following out!
     </p>
-    <img style="width: 70%; margin: 2rem auto;" src="./images/articles/tech1_extra.jpg">
+    <img style="width: 70%; margin: 2rem auto;" src="/images/articles/tech1_extra.jpg">
     <p>
     Do you see how cool and advanced the present compute looks? Can you imagine what it would look
     like without all those nice red lights? it would look totally normal and boring! Even the cooling
@@ -159,7 +159,7 @@ export const articles: ArticleData[] = [
   {
     id: 'article_4',
     category: CategoryType.Sports,
-    imgSrc: './images/articles/sports2.jpg',
+    imgSrc: '/images/articles/sports2.jpg',
     title: 'Cycling Cyclists',
     description: `
       Cyclists usually cycle quite a bit but these cyclist
@@ -203,7 +203,7 @@ export const articles: ArticleData[] = [
   {
     id: 'article_5',
     category: CategoryType.Technology,
-    imgSrc: './images/articles/tech2.jpg',
+    imgSrc: '/images/articles/tech2.jpg',
     title: 'Rainbow Laptops',
     description: `
       We all know that light is the most important factor
@@ -297,7 +297,7 @@ export const articles: ArticleData[] = [
   {
     id: 'article_7',
     category: CategoryType.Entertainment,
-    imgSrc: './images/articles/ent2.jpg',
+    imgSrc: '/images/articles/ent2.jpg',
     title: 'Professional Cameras',
     description: `
       Professional Cameras are great! They can cost a lot but they
