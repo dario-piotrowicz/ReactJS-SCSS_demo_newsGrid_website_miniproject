@@ -2,7 +2,7 @@ const path = require('path');
 const TSLintPlugin = require('tslint-webpack-plugin');
 
 module.exports = {
-  entry: './src/index.tsx', //or ./src/index.ts
+  entry: './src/index.tsx',
   output: {
     path: path.join(__dirname, 'public'),
     filename: 'bundle.js',
