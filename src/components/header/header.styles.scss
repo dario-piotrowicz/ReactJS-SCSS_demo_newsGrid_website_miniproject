@@ -90,9 +90,11 @@
           background-color: $color-primary;
         }
 
-        &:hover {
-          color: $color-dark;
-          background-color: $color-light;
+        @media (hover: hover) and (pointer: fine) {
+          &:hover {
+            color: $color-dark;
+            background-color: $color-light;
+          }
         }
       }
     }
