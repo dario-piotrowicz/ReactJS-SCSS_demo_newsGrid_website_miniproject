@@ -7,6 +7,7 @@ import { CategoryType } from '../../common/enums';
 import JoinOurClubAside from '../../components/join-our-club-aside/join-our-club-aside.component';
 import { useParams } from 'react-router-dom';
 import { articles } from '../../common/articles';
+import * as moment from 'moment';
 
 const Article: FunctionComponent = () => {
   const { articleId } = useParams();
@@ -20,6 +21,8 @@ const Article: FunctionComponent = () => {
     );
   }
 
+  const dateStr = moment(article.date).format('DD MMM, YYYY');
+
   return (
     <div id="article-page" className="centering-container">
       <article>
@@ -27,8 +30,10 @@ const Article: FunctionComponent = () => {
         <h1>{article.title}</h1>
         <div className="meta">
           <small>
-            <FontAwesomeIcon icon={faUser} /> Written By Doe John | January 12,
-            2020
+            <span className="icon">
+              <FontAwesomeIcon icon={faUser} />
+            </span>
+            Written By {article.author} | {dateStr}
           </small>
           <CategoryTag type={CategoryType.Entertainment} />
         </div>

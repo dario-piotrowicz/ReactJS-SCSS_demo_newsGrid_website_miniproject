@@ -43,6 +43,8 @@ export const articles: ArticleData[] = [
       It really is going to be a very excting match! Do not miss it, and do not miss out live coverage!
       </p>
     `,
+    date: new Date(2020, 1, 15),
+    author: 'Tudor Hanson',
   },
   {
     id: 'article_1',
@@ -81,6 +83,8 @@ export const articles: ArticleData[] = [
       I know that may be tempting but it's a practice for only highly skilled
       individuals with many years of experice! <em>Safety First!</em>
       </p>`,
+    date: new Date(2020, 1, 21),
+    author: 'Kuba Goodman',
   },
   {
     id: 'article_2',
@@ -124,6 +128,8 @@ export const articles: ArticleData[] = [
       That was a bit random and not too interesting, it almost seemd like the first paragraph of the football's wikipedia page...
       </p>
       `,
+    date: new Date(2020, 3, 3),
+    author: 'Anis Herbert',
   },
   {
     id: 'article_3',
@@ -155,6 +161,8 @@ export const articles: ArticleData[] = [
     system would not redeeme it!
     </p>
     `,
+    date: new Date(2020, 3, 13),
+    author: 'Steven Keeling',
   },
   {
     id: 'article_4',
@@ -199,6 +207,8 @@ export const articles: ArticleData[] = [
     roadside supporters a day.
     </p>
     `,
+    date: new Date(2022, 4, 28),
+    author: 'Deen Gonzalez',
   },
   {
     id: 'article_5',
@@ -238,6 +248,8 @@ export const articles: ArticleData[] = [
          </p>
     </div>
     `,
+    date: new Date(2020, 5, 15),
+    author: 'Brax Kaur',
   },
   {
     id: 'article_6',
@@ -293,6 +305,8 @@ export const articles: ArticleData[] = [
     which explained very basic football concepts.
     </p>
     `,
+    date: new Date(2022, 6, 1),
+    author: 'Kylo Wilkerson',
   },
   {
     id: 'article_7',
@@ -328,6 +342,8 @@ export const articles: ArticleData[] = [
     exclusively used for television and other works (except movies) are termed as professional video cameras.
     </p>
     `,
+    date: new Date(2022, 6, 2),
+    author: 'Yosef Kidd',
   },
 ];
 

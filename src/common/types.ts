@@ -7,6 +7,8 @@ export type ArticleData = {
   title: string;
   description: string;
   content: string;
+  date: Date;
+  author: string;
 };
 
 export type ArticleCardData = {
