@@ -8,32 +8,47 @@ const About: FunctionComponent = () => {
       <article>
         <h1>About Our Organization</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate et
-          rem excepturi rerum soluta eius consectetur cupiditate nostrum eum,
-          enim itaque, minima nisi aliquam quidem perspiciatis. Recusandae
-          consequatur vero ratione quas molestiae, saepe, aliquam, incidunt
-          laudantium dignissimos quis delectus similique fugit repellat iusto
-          facilis eaque a repellendus earum. Sunt, deleniti.
+          Our <strong>totally</strong> real company brings to you the latest
+          news from all around the world, viewable from any device and browser!
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
-          voluptates obcaecati. Molestiae pariatur enim veritatis eligendi
-          ratione dolorem quasi. Optio nisi officiis perferendis accusamus
-          repellat quibusdam animi enim et vero deleniti ipsam molestias porro
-          illo modi rem odio fugit excepturi, laudantium aperiam minima facere.
-          Eveniet, placeat ratione molestias, vitae blanditiis sapiente optio
-          pariatur magnam libero cumque porro. Quisquam culpa recusandae
-          temporibus in, obcaecati corporis maxime incidunt blanditiis nemo
-          quaerat consequuntur eligendi quis, iusto ipsam! Quasi, magni
-          aspernatur? Necessitatibus molestias in illo quo blanditiis cumque?
-          Mollitia dolorem tenetur optio inventore rerum blanditiis
-          necessitatibus ipsa, reprehenderit aut exercitationem repellat non
-          aliquam a, veniam nihil sapiente officia itaque! Consectetur assumenda
-          vero voluptatibus magnam, ipsa tempora quisquam aliquam a laboriosam
-          culpa officiis voluptates unde nisi blanditiis quo deserunt esse
-          dolorem earum at beatae quaerat quasi nemo quam veritatis. Neque,
-          inventore odio rem modi quas ipsam labore incidunt natus sed eius
-          aperiam reiciendis recusandae harum?
+          Our news cover a <strong>huge</strong> variety of categories, ranging
+          from sports to technology, entertainment and much much much much more!
+          (it's not like we only have those three categories!)
+        </p>
+        <p>
+          Our (again, <strong>totally</strong> existing) company is set up to
+          provide to you the best news service possible.
+          <br />
+          Furthermore if you join our club (see panel on the right) you can even
+          get more newsy news and much more!
+        </p>
+        <p>
+          Let's also hear a few words from out esteemed president, Mr.
+          NewsGridPrez:
+          <br />
+          <em>
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+            nobis possimus nemo nesciunt, facilis at sequi delectus distinctio
+            sint in atque obcaecati illo dolorem ullam voluptates, nostrum
+            asperiores aperiam blanditiis, perspiciatis sed molestias nulla.
+            Quia accusamus aliquid id culpa esse asperiores magni omnis sed
+            neque! Beatae velit expedita autem obcaecati."
+            <br />
+            <br />
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti
+            vitae beatae in culpa sed rerum id iure mollitia molestiae alias
+            temporibus est ut, labore consequatur ducimus dignissimos quae esse
+            eos velit, debitis quaerat recusandae itaque. Iure nihil beatae
+            recusandae molestias, officia perspiciatis vitae cumque vel,
+            deleniti dolorem minima consectetur quidem autem doloribus officiis,
+            aliquam veritatis enim quos ullam. Molestiae ipsum quos eligendi
+            aperiam unde nisi facere vitae, quaerat quasi commodi ab
+            consequatur, delectus cupiditate modi quam! Accusamus voluptas,
+            temporibus molestiae iste unde sed quis esse, eius in placeat eum
+            pariatur iure quaerat molestias neque a laborum. Hic ut minima
+            accusantium?
+          </em>
         </p>
       </article>
       <JoinOurClubAside />
