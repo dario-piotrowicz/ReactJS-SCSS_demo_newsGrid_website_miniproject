@@ -11,6 +11,10 @@
       em {
         display: block;
         padding: 1rem 5rem;
+
+        @media (max-width: 500px) {
+          padding: 1rem;
+        }
       }
     }
   }
