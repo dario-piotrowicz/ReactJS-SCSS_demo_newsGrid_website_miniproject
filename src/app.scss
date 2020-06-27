@@ -53,3 +53,14 @@ h2 {
   @extend %btn-base;
   background-color: $color-primary;
 }
+
+#page-not-found {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-size: 4rem;
+  }
+}
