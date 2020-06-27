@@ -20,13 +20,14 @@
       .text {
         padding: 0 5px;
         display: flex;
+        align-items: center;
 
         .icon {
           margin-right: 10px;
-          align-self: center;
         }
 
         .divider {
+          align-self: stretch;
           margin: 0 5px;
           background-color: currentColor;
           width: 1px;

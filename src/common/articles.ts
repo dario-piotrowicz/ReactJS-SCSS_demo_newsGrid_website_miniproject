@@ -207,7 +207,7 @@ export const articles: ArticleData[] = [
     roadside supporters a day.
     </p>
     `,
-    date: new Date(2022, 4, 28),
+    date: new Date(2020, 4, 28),
     author: 'Deen Gonzalez',
   },
   {
@@ -305,7 +305,7 @@ export const articles: ArticleData[] = [
     which explained very basic football concepts.
     </p>
     `,
-    date: new Date(2022, 6, 1),
+    date: new Date(2020, 6, 1),
     author: 'Kylo Wilkerson',
   },
   {
@@ -342,7 +342,7 @@ export const articles: ArticleData[] = [
     exclusively used for television and other works (except movies) are termed as professional video cameras.
     </p>
     `,
-    date: new Date(2022, 6, 2),
+    date: new Date(2020, 6, 2),
     author: 'Yosef Kidd',
   },
 ];
