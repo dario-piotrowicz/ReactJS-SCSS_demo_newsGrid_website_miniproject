@@ -29,11 +29,13 @@ const Article: FunctionComponent = () => {
         {article.imgSrc ? <img src={article.imgSrc} /> : null}
         <h1>{article.title}</h1>
         <div className="meta">
-          <small>
+          <small className="text">
             <span className="icon">
               <FontAwesomeIcon icon={faUser} />
             </span>
-            Written By {article.author} | {dateStr}
+            <span className="author">Written By {article.author}</span>
+            <span className="divider" />
+            <span className="date">{dateStr}</span>
           </small>
           <CategoryTag type={CategoryType.Entertainment} />
         </div>

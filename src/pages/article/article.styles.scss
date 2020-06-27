@@ -17,8 +17,20 @@
       background-color: #eee;
       padding: 0.5rem;
 
-      .icon {
-        margin-right: 10px;
+      .text {
+        padding: 0 5px;
+        display: flex;
+
+        .icon {
+          margin-right: 10px;
+          align-self: center;
+        }
+
+        .divider {
+          margin: 0 5px;
+          background-color: currentColor;
+          width: 1px;
+        }
       }
     }
 
