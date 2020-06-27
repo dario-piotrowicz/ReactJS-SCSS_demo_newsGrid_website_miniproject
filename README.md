@@ -12,9 +12,9 @@ In this project I am besically doing the same but I am also adding Typescript to
 \
 Most of the UI designs and HTML/CSS are taken from the course, so that is not designed by me, what is 100% completely mine is the files structure, the aforementioned configration and the react aspects.
 \
- \
- \
- &NewLine;
+\
+\
+&NewLine;
 
 ### Deployment
 
