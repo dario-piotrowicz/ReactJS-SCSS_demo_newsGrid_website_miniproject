@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`home page  should match its snapshot 1`] = `
+<div
+  className="centering-container"
+  id="home-page"
+>
+  <Showcase />
+  <h1>
+    Featured Articles
+  </h1>
+  <ArticlesGrid />
+</div>
+`;
