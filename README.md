@@ -4,7 +4,7 @@ This is a simple miniproject I'm doing following a course on HTML & CSS ( [Moder
 
 In order to improve and make a bit more interesting this miniproject I decided to add a little challenge to myself, that is to implement the project using ReactJs (which I'm currently studying).
 
-For the first of the course's minitprojects ( [Demo Hotel Miniproject](https://github.com/dario-piotrowicz/ReactJS-CSS_demo_hotel_miniproject) ) the challenge was not to use the Create-React_App tool, JSX, Babel, Webpack, etc... (just plain HTML, CSS and Javascript), in the next one ( [Demo Fictional Company Website Miniproject](https://github.com/dario-piotrowicz/ReactJS-SCSS_demo_fictional-company_website_miniproject) ) the challenge was to setup the whole react application up by myself and configuring manually webpack and babel.
+For the first of the course's minitprojects ( [Demo Hotel Website Miniproject](https://github.com/dario-piotrowicz/ReactJS-CSS_demo_hotel_website_miniproject) ) the challenge was not to use the Create-React-App tool, JSX, Babel, Webpack, etc... (just plain HTML, CSS and Javascript), in the next one ( [Demo Fictional Company Website Miniproject](https://github.com/dario-piotrowicz/ReactJS-SCSS_demo_fictional-company_website_miniproject) ) the challenge was to setup the whole react application up by myself and configuring manually webpack and babel.
 \
 \
 In this project I am besically doing the same but I am also adding Typescript to the mix (which gives me a good opportunity to use react with typescript a pattern I have seen being used online).
