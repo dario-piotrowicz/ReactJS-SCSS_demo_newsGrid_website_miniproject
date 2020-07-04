@@ -7,7 +7,7 @@ import { CategoryType } from '../../common/enums';
 import JoinOurClubAside from '../../components/join-our-club-aside/join-our-club-aside.component';
 import { useParams } from 'react-router-dom';
 import { articles } from '../../common/articles';
-import * as moment from 'moment';
+import moment from 'moment';
 
 const Article: FunctionComponent = () => {
   const { articleId } = useParams();
