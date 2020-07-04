@@ -12,7 +12,6 @@ const App: FunctionComponent = () => {
 
   useEffect(() => {
     return history.listen(() => {
-      console.log('test from app');
       window.scrollTo(0, 0);
     });
   }, [history]);
